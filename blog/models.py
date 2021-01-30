@@ -9,6 +9,14 @@ class Post(models.Model):
     post_date = models.DateTimeField(auto_now=True)
     post_text= models.TextField(verbose_name ='Текст')
 
+
+    # функция, которую  мы передаём в модель, чтобы отоборажалось определенное количество символов (а70)
+    def get_summary(self):
+
+        return self.post_text[:70] + '...' # чтобы отображалось только 70 символов
+
+
+
     
     def __str__(self):
 

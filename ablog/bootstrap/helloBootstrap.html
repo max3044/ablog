@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, bootstrap!</title>
+  </head>
+  <body>
+      
+    
+    <!-- Navbar -->
+
+
+    <!-- стандартный   bg-primary-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+
+        <!-- цвет, определенный через стиль -->
+        <!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color:peachpuff"> -->
+        
+          <!-- nav - по сути div для панели навигации -->
+          <!-- сначала всегда идёт класс, определяющий сам компонент (перед каким-то свойством, добавляем основной класс)
+            например navbar  -->
+        
+            <!-- navbar-expand-lg - указывает, что на больших экранах панель меняется (раскрывается, встаёт в одну линию - expand - разварачивается) -->
+
+        
+        <a class="navbar-brand" href="#">Navbar</a>
+        <!-- navbar-brand - обычно для лого сайта -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+
+          <!-- navbar-toggle - кнопка, которая и управляет сжатием-->
+       
+        </button>
+       
+      
+
+        <!-- здесь все выпадающие элементы перечислены -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="urls 'blog/">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download me</a>
+              </li>
+              <!-- dpopdown кнопка - с дополнительной вложенностью -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+
+    
+
+
+    <!-- container уже по-умолчанию отцентрирован -->
+
+    <div class="container mt- 5">
+        <div class="row">
+          <div class="col-sm">
+            One of three columns
+          </div>
+          <div class="col-sm">
+            One of three columns
+          </div>
+          <div class="col-sm">
+            One of three columns
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container mt-5">
+
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquid quo ab provident vitae id nihil explicabo reiciendis omnis facere sit, est nam culpa placeat neque corrupti quos hic. Eos eveniet eaque ea suscipit! Deserunt alias ad accusamus est maxime saepe illum obcaecati repudiandae inventore. Magni deleniti aspernatur fuga officiis tempore amet, blanditiis perferendis nobis magnam eaque similique sit omnis, accusantium repellendus voluptatibus odit quisquam reprehenderit! Laborum iure vero perferendis enim non atque dicta eveniet, qui veniam tempore tenetur quia omnis a odio quibusdam ex nisi illum! Nisi quis consequatur minima. Sint dolorem ipsam praesentium culpa nostrum corporis, nemo rem similique ullam quia minus doloribus sit repellat explicabo vitae recusandae eveniet, porro aut consequuntur obcaecati dignissimos odio dolorum nisi error. Animi ea, aliquam cum ratione quis quae nobis necessitatibus ex unde iste voluptas dignissimos, quasi non officia minus reprehenderit. Eaque rem, id quaerat ullam quas nemo, odit esse debitis sunt voluptas inventore exercitationem minus, laudantium iure sint architecto. Voluptates provident architecto libero, commodi autem ea rerum dolorem reprehenderit quas ratione tempora iusto laboriosam beatae magni laudantium veniam obcaecati officiis qui labore harum natus inventore distinctio. Autem necessitatibus, culpa tempora ad inventore perspiciatis magnam quos voluptatum. Officiis assumenda blanditiis ex? Necessitatibus!</p>
+    </div>
+
+    <div class="container mt-5">
+
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquid quo ab provident vitae id nihil explicabo reiciendis omnis facere sit, est nam culpa placeat neque corrupti quos hic. Eos eveniet eaque ea suscipit! Deserunt alias ad accusamus est maxime saepe illum obcaecati repudiandae inventore. Magni deleniti aspernatur fuga officiis tempore amet, blanditiis perferendis nobis magnam eaque similique sit omnis, accusantium repellendus voluptatibus odit quisquam reprehenderit! Laborum iure vero perferendis enim non atque dicta eveniet, qui veniam tempore tenetur quia omnis a odio quibusdam ex nisi illum! Nisi quis consequatur minima. Sint dolorem ipsam praesentium culpa nostrum corporis, nemo rem similique ullam quia minus doloribus sit repellat explicabo vitae recusandae eveniet, porro aut consequuntur obcaecati dignissimos odio dolorum nisi error. Animi ea, aliquam cum ratione quis quae nobis necessitatibus ex unde iste voluptas dignissimos, quasi non officia minus reprehenderit. Eaque rem, id quaerat ullam quas nemo, odit esse debitis sunt voluptas inventore exercitationem minus, laudantium iure sint architecto. Voluptates provident architecto libero, commodi autem ea rerum dolorem reprehenderit quas ratione tempora iusto laboriosam beatae magni laudantium veniam obcaecati officiis qui labore harum natus inventore distinctio. Autem necessitatibus, culpa tempora ad inventore perspiciatis magnam quos voluptatum. Officiis assumenda blanditiis ex? Necessitatibus!</p>
+    </div>
+    <div class="container mt-5">
+
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquid quo ab provident vitae id nihil explicabo reiciendis omnis facere sit, est nam culpa placeat neque corrupti quos hic. Eos eveniet eaque ea suscipit! Deserunt alias ad accusamus est maxime saepe illum obcaecati repudiandae inventore. Magni deleniti aspernatur fuga officiis tempore amet, blanditiis perferendis nobis magnam eaque similique sit omnis, accusantium repellendus voluptatibus odit quisquam reprehenderit! Laborum iure vero perferendis enim non atque dicta eveniet, qui veniam tempore tenetur quia omnis a odio quibusdam ex nisi illum! Nisi quis consequatur minima. Sint dolorem ipsam praesentium culpa nostrum corporis, nemo rem similique ullam quia minus doloribus sit repellat explicabo vitae recusandae eveniet, porro aut consequuntur obcaecati dignissimos odio dolorum nisi error. Animi ea, aliquam cum ratione quis quae nobis necessitatibus ex unde iste voluptas dignissimos, quasi non officia minus reprehenderit. Eaque rem, id quaerat ullam quas nemo, odit esse debitis sunt voluptas inventore exercitationem minus, laudantium iure sint architecto. Voluptates provident architecto libero, commodi autem ea rerum dolorem reprehenderit quas ratione tempora iusto laboriosam beatae magni laudantium veniam obcaecati officiis qui labore harum natus inventore distinctio. Autem necessitatibus, culpa tempora ad inventore perspiciatis magnam quos voluptatum. Officiis assumenda blanditiis ex? Necessitatibus!</p>
+    </div>
+
+      <p class="bg-primary text-width">This is primary text</p>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

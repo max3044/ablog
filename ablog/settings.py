@@ -126,7 +126,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 
+# это специальная директория для статических файлов (шаблоны и фотки, я так понимаю)
+# указываем основную директорию (где находятся настройки) и static
+STATICFILES_DIRS = [
+    BASE_DIR / "ablog/static",
+]
+
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 # указываем папку, где будут хранится медиа файлы
